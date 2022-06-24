@@ -6,19 +6,19 @@ from AppGimnasios.models import *
 from AppGimnasios.forms import *
 
 def sucursales(request):
-    return render(request,'AppGimnasios/sucursales.html')
+    return render(request,'appGimnasios/sucursales.html')
 
 def clases(request):
-    return render(request,'AppGimnasios/clases.html')
+    return render(request,'appGimnasios/clases.html')
 
 def profesores(request):
-    return render(request,'AppGimnasios/profesores.html')
+    return render(request,'appGimnasios/profesores.html')
 
 def horarios(request):
-    return render(request,'AppGimnasios/horarios.html')
+    return render(request,'appGimnasios/horarios.html')
 
 def inicio(request):
-    return render(request,'AppGimnasios/inicio.html')
+    return render(request,'appGimnasios/inicio.html')
 
 def sucursalesFormulario(request):
     if request.method == 'POST':
